@@ -17,7 +17,7 @@ public class Restaurant {
         this.closingTime = closingTime;
     }
 
-   /* public int getTotalOrderCost(List<String> itemList){
+    public int getTotalOrderCost(List<String> itemList){
 
         int orderCost = 0;
         for(String itemNames: itemList) {
@@ -28,7 +28,7 @@ public class Restaurant {
         }
         //System.out.println("Total Order Cost: "+orderCost);
         return orderCost;
-    } */
+    } 
 
     public boolean isRestaurantOpen() {
         return  (getCurrentTime().isAfter(openingTime) && getCurrentTime().isBefore(closingTime));
