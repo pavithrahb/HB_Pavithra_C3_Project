@@ -42,7 +42,7 @@ class RestaurantTest {
     //<<<<<<<<<<<<<<<<<<<<<<<<<OPEN/CLOSED>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
     //>>>>>>>>>>>>>>>>>>>>>>>>>>>ORDERCOST<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-    /* @Test
+     @Test
     public void get_total_order_price_value_when_item_are_passed(){
         List<String> itemname = new ArrayList<>();
         itemname.add("Sweet corn soup");
@@ -69,7 +69,7 @@ class RestaurantTest {
         itemname.remove(1);
         assertTrue(restaurant.getTotalOrderCost(itemname) < totalCost);
 
-    } */
+    } 
     //>>>>>>>>>>>>>>>>>>>>>>>>>>>ORDERCOST<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
